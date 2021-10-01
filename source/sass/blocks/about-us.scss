@@ -1,0 +1,24 @@
+.about-us {
+    width: 380px;
+}
+
+.about-us__heading {
+    @include reset;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.about-us__text {
+    @include reset;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 19px;
+}
+
+.address {
+    font-size: 13px;
+    line-height: 21px;
+    font-style: normal;
+}

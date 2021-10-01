@@ -1,0 +1,21 @@
+.login {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.login__icon {
+    width: 18px;
+    height: 18px;
+}
+
+.author-icon {
+    margin-right: 10px;
+}

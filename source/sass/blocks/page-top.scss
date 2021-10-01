@@ -1,0 +1,15 @@
+.page__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 29px;
+    text-align: center;
+    background-color: #000;
+}
+.page__top-text {
+    @include reset;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    color: #FBFBFB;
+}

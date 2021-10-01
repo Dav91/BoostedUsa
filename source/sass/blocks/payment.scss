@@ -1,0 +1,17 @@
+.payment {
+    width: 332px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.payment__item {
+    width: 38px;
+    height: 24px;
+}
+
+.payment__item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}

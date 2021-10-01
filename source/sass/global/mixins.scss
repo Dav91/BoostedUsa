@@ -1,0 +1,10 @@
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin center {
+    width: 1200px;
+    padding: 0 120px
+}
+

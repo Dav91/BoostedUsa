@@ -1,0 +1,10 @@
+.page-copyright__text {
+    @include reset;
+    font-size: 13px;
+    line-height: 18.75px;
+}
+
+.page-copyright__text span {
+    font-size: 12px;
+    color: #FF4A32;
+}

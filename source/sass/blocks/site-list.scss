@@ -1,0 +1,14 @@
+.site-list {
+    @include reset;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.site-list__item {
+    margin-right: 23px;
+    letter-spacing: 1px;
+}

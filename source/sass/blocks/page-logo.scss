@@ -1,0 +1,15 @@
+.page-logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.page-logo a {
+    @include reset;
+    text-decoration: none;
+}
+
+.page-logo {
+    width: 160px;
+    height: 36px;
+}

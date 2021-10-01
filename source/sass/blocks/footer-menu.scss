@@ -1,0 +1,19 @@
+.footer-menu-heading {
+    @include reset;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-list {
+    @include reset;
+    font-size: 13px;
+    line-height: 21px;
+    list-style: none;
+}
+
+.footer-list__item a {
+    text-decoration: none;
+    color: #000;
+}

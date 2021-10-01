@@ -1,0 +1,33 @@
+.electric-skateboards__main-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.electric-skateboards__main-section-block {
+    width: 480px;
+    position: relative;
+}
+
+.electric-skateboards__main-section-block img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.electric-skateboards__main-section-block p {
+    @include reset;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.electric-skateboards__main-section-block span {
+    font-size: 18px;
+    line-height: 23.44px;
+    text-transform: uppercase;
+}

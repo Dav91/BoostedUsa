@@ -1,0 +1,43 @@
+.page-heading {
+    @include reset;
+    font-size: 44px;
+    line-height: 51px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.main-header__content {
+    width: 635px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 45px;
+    margin-bottom: 605px;
+}
+
+.main-header__content-text {
+    @include reset;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 22px;
+}
+
+.main-header__content-button {
+    @include reset;
+    width: 201px;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #FF4A32;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    &--first {
+        margin-right: 12px;
+    }
+}

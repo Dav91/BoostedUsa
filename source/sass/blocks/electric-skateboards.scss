@@ -1,0 +1,77 @@
+.electric-skateboards {
+    margin-bottom: 45px;
+}
+
+.electric-skateboards__header {
+    height: 736px;
+    background-image: url(../../img/bcg-electric-skateboards.jpg);
+    text-align: center;
+    padding-top: 44px;
+    margin-bottom: 45px;
+}
+
+.electric-skateboards__header-heading {
+    @include reset;
+    font-size: 45px;
+    line-height: 50.63px;
+    font-weight: 700;
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+
+.electric-skateboards__header-text {
+    @include reset;
+    font-size: 15px;
+    line-height: 18.75px;
+    margin: 0 auto;
+}
+
+.electric-skateboards__button {
+    margin: 0;
+    width: 201px;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #ff4a32;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+.electric-skateboards__main-header {
+    @include center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.electric-skateboards__main-header-block {
+    width: 380px;
+}
+
+.electric-skateboards__main-header-block--last {
+    padding-top: 67px;
+}
+
+.electric-skateboards__main-header-block--last h2{
+    @include reset;
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+
+.electric-skateboards__main-header-block--last p {
+    width: 339px;
+    @include reset;
+    font-size: 15px;
+    line-height: 22.5px;
+    margin-bottom: 18px;
+}
+
+.electric-skateboards__main-header-block--last button {
+    width: 101px;
+    margin-top: 0;
+}

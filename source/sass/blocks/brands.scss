@@ -1,0 +1,24 @@
+.brands {
+    @include center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding-top: 18px;
+    padding-bottom: 13px;
+}
+
+.brands-item {
+    width: 280px;
+    text-align: center;
+}
+
+.brands-item img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.brands-item a {
+    @include reset;
+    display: block;
+}
+
